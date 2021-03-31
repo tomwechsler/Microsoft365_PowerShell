@@ -1,7 +1,7 @@
-﻿Set-Location C:\
+Set-Location C:\
 Clear-Host
 
-#The SahrePoint Module
+#The SharePoint Module
 Install-Module -Name Microsoft.Online.SharePoint.PowerShell
 
 #Credential
