@@ -36,7 +36,7 @@ New-AzureADUser -GivenName "Fred" `
 
 #Make some changes
 Set-AzureADUser `
-	-ObjectId Ben@globomantics.org `
+	-ObjectId fred.prefect@tomrocks.ch `
 	-DisplayName “Prefect Fred" 
 
 #Set a manager for fred
