@@ -1,4 +1,4 @@
-﻿Set-Location C:\
+Set-Location C:\
 Clear-Host
 
 #We need the exchange online modil
@@ -11,4 +11,4 @@ $cred = get-credential
 Connect-ExchangeOnline –Credential $cred
 
 #Did it work?
-Get-Mailbox
+Get-EXOMailbox
